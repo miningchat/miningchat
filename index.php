@@ -48,11 +48,6 @@ include("$path");
 ?>
 
 
-<?php
-if ($user=='admin' || $company_auditor == 1 || $company_editor == 1) {
-?>
-
-
 
 <br>
 
@@ -111,9 +106,6 @@ if ($user=='admin' || $company_auditor == 1 || $company_editor == 1) {
 </div>
 
 
-<?php
-}
-?>
 
 
 
